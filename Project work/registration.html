@@ -1,0 +1,50 @@
+
+<html>
+ <head>
+  <meta charset="window-1251">
+  <title>Регистрация</title>
+<link rel="stylesheet" type="text/css" href="signing.css">
+ </head>
+ <body bgcolor=yellow background-image="no-repeat">
+<script language="JavaScript" src="Java.js"></script>
+   
+<form action="hendler.php" name="3Rug1" method="post">
+  <div class="forma">
+    <div class="forma2">
+<p>Регистрация</p>
+<br class="taps"> Введите свой email <br>
+<input type="text" name="email" value="ivanovivan@gmail.com" class="taps">
+
+<br class="taps"> Введите свой номер <br>
+<input type="tel" name="phone" value="+998 ** *******" class="taps">
+
+<br>
+<br class="taps"> Как вам отправит пароль<br>
+<input type="radio" value="email" checked name="drass" class="taps">На email<br>
+<input type="radio" value="tel" name="drass" class="taps">На номер<br>
+<input type="radio" value="Both" name="drass" class="taps">Оба<br>
+
+<br class="taps">Способ оповещений<br>
+<input type="checkbox" checked value="ch1" class="taps">Почта<br> 
+<input type="checkbox" checked value="ch2" class="taps">SMS<br>
+<input type="checkbox" checked value="ch3" class="taps">Звонок<br>
+<input type="checkbox" checked value="ch4" class="taps">Не хочу<br>
+
+<br class="taps"> Укажите пол <br>
+<select name="delivery" size="1" class="taps" >
+<option selected value="s1" class="taps">Мужчина</option>
+<option  value="s2" class="taps">Женщина</option>
+<option  value="s3" class="taps">Нейтральный</option>
+<option  value="s4" class="taps">Другое</option>
+
+</select><br>
+<br class="taps">Дайте краткую характеристику о себе:<br>
+<textarea name="address" rows="4" cols="30" class="textarea">
+</textarea>
+<br><input type="submit" value="Send" onclick="return okoshko()" class="taps"><br>
+<br><input type="reset" value="Reset" class="taps"><br>
+<br><input type="button" value="Back" class="taps"><br>
+    </div>
+  </div>
+</body>
+</html>
